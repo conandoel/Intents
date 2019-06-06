@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">intents</string>
+    <string name="todo">TODO</string>
+    <string name="ingrese_email">Ingrese Email</string>
+    <string name="ingrese_password">Ingrese Password</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="salir">Salir</string>
+    <string name="emilio_manrique">Emilio Manrique</string>
+
+    <string name="button">Button</string>
+    <string name="sitio_web">Sitio Web</string>
+    <string name="contactar_telefonicamente">Contactar Telefonicamente</string>
+    <string name="visitar_sitio">Visitar Sitio</string>
+
+</resources>

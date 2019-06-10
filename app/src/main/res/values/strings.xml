@@ -12,5 +12,9 @@
     <string name="sitio_web">Sitio Web</string>
     <string name="contactar_telefonicamente">Contactar Telefonicamente</string>
     <string name="visitar_sitio">Visitar Sitio</string>
+    <string name="ingrese_usuario">Ingrese Usuario</string>
+    <string name="nuevo_usuario">Nuevo Usuario</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="aceptar_condiciones">Aceptar Condiciones</string>
 
 </resources>

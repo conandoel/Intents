@@ -42,7 +42,7 @@ public class AcercaActivity extends AppCompatActivity {
     }
 
     private void lanzarWeb(){
-        String url = "https://www.deportecapital.com.ar";
+        String url = "http ://www.deportecapital.com.ar";
         Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(i);
     }

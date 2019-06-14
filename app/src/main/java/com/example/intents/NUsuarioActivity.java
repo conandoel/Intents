@@ -44,7 +44,7 @@ public class NUsuarioActivity extends AppCompatActivity {
         String e=editTextUsuario.getText().toString();
         String p=editTextPass.getText().toString();
 
-        if ((e != "") && (p != "")){
+        if ((!e.isEmpty()) && (!p.isEmpty())){
 
             Intent intent = new Intent(this, MainActivity.class);
 

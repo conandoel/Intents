@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private EditText editTextEmail, editTextPassword;
-    private Button botonIngresar;
+    private Button botonIngresar, buttonNU;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         editTextPassword = findViewById(R.id.editTextPassword);
 
         botonIngresar = findViewById(R.id.botonIngresar);
+        buttonNU=findViewById(R.id.buttonNU);
 
         botonIngresar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +40,18 @@ public class MainActivity extends AppCompatActivity {
                 validarUsuario();
             }
         });
+
+        buttonNU.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                acondiciones();
+            }
+        });
+    }
+
+    private void acondiciones(){
+        Intent i = new Intent(this, CondicionesActivity.class);
+        startActivity(i);
     }
 
     private void validarUsuario(){

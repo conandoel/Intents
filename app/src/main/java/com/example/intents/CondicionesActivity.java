@@ -42,6 +42,7 @@ public class CondicionesActivity extends AppCompatActivity {
 
             Intent i = new Intent(this, NUsuarioActivity.class);
             startActivity(i);
+            finish();
 
         }
         else{
